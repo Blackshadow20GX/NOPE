@@ -1,17 +1,24 @@
 {
   "manifest_version": 2,
 
-  "name": "De-ADifier",
+  "name": "NOPE",
   "description": "Removes Ads from Facebook sidebar and chat.",
   "version": "1.0",
 
   "browser_action": {
-    "default_title": "De-ADifier",
+    "default_title": "NOPE - No Ads for You!",
     "default_icon": "src/assets/icon.png"
   },
-  "content_scripts": [
-    {
-        "matches": ["*://*.facebook.com/*"],
-        "js": ["src/lib/content.js"]
-    }]
+  "background": {
+      "scripts": ["src/lib/content.js"],
+      "persistent": false
+  },
+  "content_scripts": [{
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["src/lib/nope.js"]
+  }],
+  "permissions": [
+      "activeTab",
+      "https://ajax.googleapis.com/"
+  ]
 }

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "De-ADifier",
+  "description": "Removes Ads from Facebook sidebar and chat.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "De-ADifier",
+    "default_icon": "src/assets/icon.png"
+  },
+  "content_scripts": [
+    {
+        "matches": ["*://*.facebook.com/*"],
+        "js": ["src/lib/content.js"]
+    }]
+}

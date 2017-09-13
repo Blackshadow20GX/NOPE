@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_title": "NOPE - No Ads for You!",
-    "default_icon": "src/assets/icon.png"
+    "default_icon": "src/assets/nope.png"
   },
   "background": {
       "scripts": ["src/lib/content.js"],

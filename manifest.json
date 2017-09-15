@@ -3,11 +3,15 @@
 
   "name": "NOPE",
   "description": "Removes Ads from Facebook sidebar and chat.",
-  "version": "1.0",
+  "version": "1.0.2",
+  "icons": { "19": "src/assets/nope-19.png",
+	"48": "src/assets/nope-48.png",
+	"128": "src/assets/nope-128.png"
+  },
 
   "browser_action": {
     "default_title": "NOPE - No Ads for You!",
-    "default_icon": "src/assets/nope.png"
+    "default_icon": "src/assets/nope-19.png"
   },
   "background": {
       "scripts": ["src/lib/content.js"],

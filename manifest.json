@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "NOPE",
-  "description": "Removes Ads from Facebook sidebar and chat.",
-  "version": "1.0.2",
+  "description": "Removes Ads from Facebook that other ad-blockers miss.",
+  "version": "1.1.0",
   "icons": { "19": "src/assets/nope-19.png",
 	"48": "src/assets/nope-48.png",
 	"128": "src/assets/nope-128.png"

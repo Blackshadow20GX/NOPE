@@ -14,6 +14,10 @@ Extensions window, and accept the permissions specified.
 
 ## Version History
 
+### Version 1.1
+
+	* Significantly improve performance
+
 ### Version 1.0
 
 	* Initial release
